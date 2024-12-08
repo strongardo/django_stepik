@@ -1,0 +1,21 @@
+{% extends "mainapp/base.html" %}
+
+{% block content %}
+<main>
+    <h1>My dictionary</h1>
+    <p>My Dictionary is a simple Django program that provides a web interface for creating and managing a personal
+        dictionary. The website includes three pages:</p>
+    <ol>
+        <li><b>Home Page</b> – a brief description of the program.</li>
+        <li><b>Words List</b> – displays the dictionary words in a table, with the first column showing English words and the
+            second
+            column their Russian translations.
+        </li>
+        <li><b>Add a Word</b> – a page with a form to input a new word (in English) and its translation (in Russian), along with
+            a
+            "Submit" button to save it.
+        </li>
+    </ol>
+    <p>The program is perfect for learning and practicing vocabulary.</p>
+</main>
+{% endblock %}

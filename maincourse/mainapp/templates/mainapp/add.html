@@ -1,0 +1,17 @@
+{% extends "mainapp/base.html" %}
+
+{% block title %}Add a word{% endblock %}
+
+{% block content %}
+<main>
+    <h1>Add a word</h1>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" placeholder="Enter the word in English" name="word1">
+        <br><br>
+        <input type="text" placeholder="Enter the word in Russian" name="word2">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</main>
+{% endblock %}

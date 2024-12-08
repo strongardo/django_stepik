@@ -1,0 +1,5 @@
+Day-День
+Monday-Понедельник
+Table-Стол
+Water-Вода
+Bag-Сумка

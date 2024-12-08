@@ -1,0 +1,17 @@
+{% extends "mainapp/base.html" %}
+
+{% block title %}Words list{% endblock %}
+
+{% block content %}
+<main>
+    <h1>Words list</h1>
+    <table class="words_list">
+        {% for english_word, russian_word in words %}
+        <tr>
+            <td>{{ english_word }}</td>
+            <td>{{ russian_word }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</main>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My dictionary{% endblock%}</title>
+    <link rel="stylesheet" href="{% static 'mainapp/css/style.css' %}">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="{% url 'home' %}">Home</a>
+            </li>
+            <li>
+                <a href="{% url 'words_list' %}">Words list</a>
+            </li>
+            <li>
+                <a href="{% url 'add_word' %}">Add a word</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+{% block content %}{% endblock%}
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
+    0px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+nav ul {
+    display: flex;
+    column-gap: 20px;
+
+    width: 500px;
+    margin: 0 auto;
+
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+form input,
+form button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+}
+
+form input {
+    padding: 0 5px;
+
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+}
+
+form button {
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+}
+
+.words_list {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+.words_list td {
+    border: 1px solid black;
+    padding: 5px;
+
+    text-align: center;
+}
